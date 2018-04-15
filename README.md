@@ -14,7 +14,6 @@ Sample Implementation of Real Estate Transactions using Block Chain.
 /**
 *  The below code is to test the newly added transactions.   
 *  Goto Command line:  node/bin> node filename.js
-*/
 
 let transactionChain = new RealEstateTransactionBlockchain();
 transactionChain.addRealEstateTransactionBlock(new RealEstateTransactionBlock(1, "01/01/2017", "Mr Y sold House1 to Mr Z; amount: $800000", "0"));
@@ -22,6 +21,7 @@ transactionChain.addRealEstateTransactionBlock(new RealEstateTransactionBlock(2,
 transactionChain.addRealEstateTransactionBlock(new RealEstateTransactionBlock(3, "02/01/2018", "Mr A sold House1 to Mr B; amount: $880000", "0"));
 console.log(JSON.stringify(transactionChain, null, 4));
 console.log("Is RealEstateTransaction valid? " + transactionChain.validateNewTransaction());
+*/
 Output:
 {
     "chain": [
